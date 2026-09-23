@@ -1,0 +1,50 @@
+#Area Calculator Program with Errors
+print("Welcome to the Area Calculator Program")
+
+length = "10"
+width = 5
+
+area_ractangle = length * width
+print(f"The area of the rectangle with length {length} and width {width} is: {area_ractangle}")
+
+base = 8
+height = 'six'
+
+area_triangle = 0.5 * base * height
+print(f"The area of the triangle with base {base} and height {height} is: {area_triangle}")
+#-----------------------------------------------------------------------------------------
+
+print("Welcome to the Area Calculator Program")
+
+# Rectangle
+length = 10       # integer, not string
+width = 5         # integer
+
+area_rectangle = length * width
+print(f"The area of the rectangle with length {length} and width {width} is: {area_rectangle}")
+
+# Triangle
+base = 8
+height = 6        # integer, not string
+
+area_triangle = 0.5 * base * height
+print(f"The area of the triangle with base {base} and height {height} is: {area_triangle}")
+
+#----------------------------------------------------------------------------------------
+
+print("Welcome to the Area Calculator Program")
+
+# Rectangle area calculation
+length = float(input("Enter the length of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
+
+area_rectangle = length * width
+print(f"The area of the rectangle with length {length} and width {width} is: {area_rectangle}")
+
+# Triangle area calculation
+base = float(input("\nEnter the base of the triangle: "))
+height = float(input("Enter the height of the triangle: "))
+
+area_triangle = 0.5 * base * height
+print(f"The area of the triangle with base {base} and height {height} is: {area_triangle}")
+
